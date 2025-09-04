@@ -23,6 +23,7 @@ export const mynetworkAtom=atom({
     default:"12"
 })
 
+// selector
 export const sumSelector=selector({
     key:"sumSelector",
     get:function ({get}) {
@@ -32,3 +33,5 @@ export const sumSelector=selector({
         return sum;
     }
 })
+
+
