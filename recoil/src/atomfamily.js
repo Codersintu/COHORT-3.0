@@ -35,7 +35,7 @@ export const todoAtomFamily=atomFamily({
       key:"selectorfamily",
       get:(id)=>async ({get})=>{
         const res=await axios.get(`http://sum-server...`)
-        return res.data.todoAtomFamily;
+        return res.data.todo;
       },
     })
        
